@@ -1,10 +1,9 @@
 {
-    "version": "2.7.10-alpha.1",
+    "version": "2.7.10-alpha.2",
     "type": "module",
     "scripts": {
         "dev": "next dev",
         "build": "next build",
-        "build:webpack": "next build --webpack",
         "start": "next start"
     },
     "dependencies": {
