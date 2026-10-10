@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Geist";
-    src: url("./fonts/Geist/1.6.0/geist.woff2");
+    src: url("./fonts/Geist/1.8.0/geist.woff2");
     font-weight: 100 900;
     font-style: normal;
     font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: "Geist";
-    src: url("./fonts/Geist/1.6.0/geist-italic.woff2");
+    src: url("./fonts/Geist/1.8.0/geist-italic.woff2");
     font-weight: 100 900;
     font-style: italic;
     font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: "Geist Mono";
-    src: url("./fonts/Geist/1.6.0/geist-mono.woff2");
+    src: url("./fonts/Geist/1.8.0/geist-mono.woff2");
     font-weight: 100 900;
     font-style: normal;
     font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: "Geist Mono";
-    src: url("./fonts/Geist/1.6.0/geist-mono-italic.woff2");
+    src: url("./fonts/Geist/1.8.0/geist-mono-italic.woff2");
     font-weight: 100 900;
     font-style: italic;
     font-display: swap;
@@ -154,6 +154,7 @@ button.a:hover {
 }
 
 .q-navbar .logo-div p {
+    font-family: var(--mono-font);
     padding: 0 1.5rem;
     font-size: .75rem;
     font-weight: bold;

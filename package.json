@@ -1,5 +1,5 @@
 {
-    "version": "2.7.10-alpha.2",
+    "version": "2.7.10-alpha.3",
     "type": "module",
     "scripts": {
         "dev": "next dev",
