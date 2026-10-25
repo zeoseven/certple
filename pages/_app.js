@@ -22,7 +22,7 @@ export default function ({ Component, pageProps }) {
 
         if (window.location.hostname == "certple.zeoseven.com") {
             const script = document.createElement("script");
-            script.src = "https://cores.zeoseven.com/main.js";
+            script.src = "https://cores-pub.zeoseven.com/main.js";
             script.defer = true;
             document.body.appendChild(script);
         };
